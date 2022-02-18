@@ -1,5 +1,19 @@
-let a = Number(prompt('Enter number:'))
-let b = Number(prompt('Enter number:'))
-let n = sign
+let a = Number(prompt('Enter first number:'))
+let sign = prompt('Enter an operator:')
+let b = Number(prompt('Enter second number:'))
 
-let x = a + b
+if (sign === "-") {
+    let res = a - b
+    alert(`Answer is ${res}`)
+} else if ( sign === "+") {
+    let res = a + b
+    alert(`Answer is ${res}`)
+} else if (sign === "*") {
+    let res = a * b
+    alert(`Answer is ${res}`)
+} else if (sign === "/") {
+    let res = a % b
+    alert(`Answer is ${res}`)
+} else {
+    alert("Error!")
+}
