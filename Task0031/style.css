@@ -1,0 +1,26 @@
+#lamp {
+    width: 500px;
+    height: 700px;
+    background-image: url("./media/lampochki_off.png");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+
+}
+
+#switcher {
+    width: 300px;
+    height: 150px;
+    background-image: url("./media/switcher_off.png");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    transition: 0.2s;
+}
+
+.composition {
+    display: grid;
+    grid-template-columns: 500px 300px;
+    align-items: center;
+}
